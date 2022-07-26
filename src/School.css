@@ -129,7 +129,10 @@ section .container .content .title h2:last-child {
     top: 22px;
     left: -25px;
 }
-section .container .content .store .icon1 svg {
+section .container  .store {
+    display: flex;
+}
+section .container  .store .app {
     /* display: flex; */
     margin-right: 35px;
 }

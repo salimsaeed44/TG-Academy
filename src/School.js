@@ -69,8 +69,12 @@ const School = () => {
                         </div>
                     </div>
                     <div className="store">
+                        <div className="app">
                         <AppStore className='icon1'/>
+                        </div>
+                        <div className="google">
                         <GoogleStore className='icon'/>
+                        </div>
                     </div>
                 </div>
             </section>
