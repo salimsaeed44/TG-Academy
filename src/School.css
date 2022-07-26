@@ -1,0 +1,169 @@
+@import url(//db.onlinewebfonts.com/c/b86c0f3afb7b6eb1952be1d4c753140c?family=Al-Jazeera-Arabic-Regular);
+#root {
+    --main-color: #ff7d1b;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font-family : "Al-Jazeera-Arabic-Regular"
+    }
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hidden {
+    display: none;
+}
+.active {
+    border-bottom: 3px solid #FBD675;
+}
+/* .background {
+    background-image: url("./images/Map.svg");
+    background-repeat: no-repeat;
+} */
+ /* Small */
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+ /* mediam  */
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+ /* Large  */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ul li {
+    cursor: pointer;
+}
+ul li a {
+    text-decoration: none;
+}
+/* Start Header */
+.header {
+    padding-top: 15px;
+}
+.header .container .parent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header .container .parent .lists ul {
+    display: flex;
+    align-items: center;
+}
+.header .container .parent .lists ul li {
+    margin-right: 15px;
+}
+.header .container .parent .lists ul li a {
+    color: #000000;
+}
+.header .container .parent .lists ul li a:hover {
+    color: #9e9e9eed;
+}
+.header .container .parent .btn button {
+    border: none;
+    background-color: #FBD675;
+    width: 133%;
+    height: 35px;
+    padding: 9px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 7px;
+}
+.header .container .parent .select select {
+    padding: 8px;
+    border-radius: 7px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #9e9e9e70;;
+}
+.header .container .parent .logo .logo {
+    width: 80px;
+}
+/* End Header */
+/* Start Section */
+section .map {
+    background-image: url("./images/Map.svg");
+    /* background-repeat: no-repeat; */
+}
+section .container .content{
+    display: flex;
+    justify-content: space-around;
+}
+section .container .content .image .image {
+    width: 300px;
+}
+section .container .content .title {
+    position: relative;
+    top: 80px;
+}
+section .container .content .title h2:first-child {
+    position: relative;
+    top: 22px;
+    left: 204px;
+}
+section .container .content .title h2 + h2{
+    position: relative;
+    top: 22px;
+    left: 90px;
+}
+section .container .content .title h2:last-child {
+    position: relative;
+    top: 22px;
+    left: -25px;
+}
+section .container .content .store .icon1 svg {
+    /* display: flex; */
+    margin-right: 35px;
+}
+/* StarEnd Section */
+/* Start Footer */
+footer {
+    background-color: #f8f8f8;
+}
+footer .container .icon-store {
+    display: flex;
+    justify-content: space-between;
+}
+footer .container .icon-store .text {
+    display: flex;
+}
+footer .container .icon-store .text p {
+    margin-right: 20px;
+}
+footer .container .icon-store .text p:last-child {
+    cursor: pointer;
+}
+footer .container .icon-store .text p:last-child:hover {
+    color: #FBD675;
+}
+footer .container .icon-store .icons {
+    display: flex;
+    align-items: center;
+}
+footer .container .icon-store .icons .icon {
+    margin-right: 20px;
+    cursor: pointer;
+} 
+footer .container .icon-store .icons p {
+    margin-left: 20px;
+    cursor: pointer;
+}
+/* End Footer */
