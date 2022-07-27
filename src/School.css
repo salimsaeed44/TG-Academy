@@ -55,6 +55,12 @@ ul li {
 ul li a {
     text-decoration: none;
 }
+.background {
+    background-image: url("./images/Map.svg");
+    background-repeat: no-repeat;
+    background-position: 83px 62px;
+    background-size: 704px;
+}
 /* Start Header */
 .header {
     padding-top: 15px;
@@ -80,29 +86,28 @@ ul li a {
 .header .container .parent .btn button {
     border: none;
     background-color: #FBD675;
-    width: 133%;
+    width: 145%;
     height: 35px;
     padding: 9px;
     font-weight: bold;
     font-size: 16px;
-    border-radius: 7px;
+    border-radius: 6px;
 }
 .header .container .parent .select select {
-    padding: 8px;
     border-radius: 7px;
     font-weight: bold;
     text-align: center;
-    border: 1px solid #9e9e9e70;;
+    border: 1px solid #9e9e9e70;
+    width: 110%;
+    padding: 9px;
 }
 .header .container .parent .logo .logo {
     width: 80px;
 }
 /* End Header */
 /* Start Section */
-section .map {
-    background-image: url("./images/Map.svg");
-    /* background-repeat: no-repeat; */
-}
+/* section  { */
+/* } */
 section .container .content{
     display: flex;
     justify-content: space-around;
@@ -116,21 +121,23 @@ section .container .content .title {
 }
 section .container .content .title h2:first-child {
     position: relative;
-    top: 22px;
-    left: 204px;
+    top: 55px;
+    left: 260px;
 }
 section .container .content .title h2 + h2{
     position: relative;
-    top: 22px;
-    left: 90px;
+    top: 45px;
+    left: 155px;
 }
 section .container .content .title h2:last-child {
     position: relative;
-    top: 22px;
-    left: -25px;
+    top: 44px;
+    left: 19px;
 }
 section .container  .store {
     display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 section .container  .store .app {
     /* display: flex; */
